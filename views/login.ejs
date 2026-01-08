@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Вхід у систему</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Авторизація</h1>
+        <form action="/auth/login" method="POST">
+            <div style="margin-bottom: 10px;">
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="user@example.com" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label>Пароль:</label><br>
+                <input type="password" name="password" placeholder="123" required>
+            </div>
+            <button type="submit">Увійти</button>
+        </form>
+    </div>
+</body>
+</html>
